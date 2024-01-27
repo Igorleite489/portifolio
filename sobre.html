@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card com Foto e Legenda</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 20px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="home.html">Web Develop</a></div>´
+            <ul class="links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos">Projetos</a></li>
+            </ul>
+            <a href="" class="action_btn">Contato</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="drops_box">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="contato">Contato</a></li>
+                    <li><a href="projetos">Projetos</a></li>
+                    <li><a href="" class="action_btnul">Contato</a></li>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="card">
+        <img src="pngtree-wolfs-full-hd-wallpaper-art-wallpaper-1920x1080-1080p-image_2571308.jpg" alt="Imagem de Exemplo">
+        <h2>Calculadora</h2>
+        <p>Calculadora feita utilizando Javascript, HTML e CSS</p>
+    </div>
+     <div class="card">
+        <img src="pngtree-wolfs-full-hd-wallpaper-art-wallpaper-1920x1080-1080p-image_2571308.jpg" alt="Imagem de Exemplo">
+        <h2>Legenda da Foto</h2>
+        <p>Descrição ou informações adicionais sobre a imagem podem ser adicionadas aqui.</p>
+     </div> <div class="card">
+        <img src="pngtree-wolfs-full-hd-wallpaper-art-wallpaper-1920x1080-1080p-image_2571308.jpg" alt="Imagem de Exemplo">
+        <h2>Legenda da Foto</h2>
+        <p>Descrição ou informações adicionais sobre a imagem podem ser adicionadas aqui.</p>
+    </div>
+    </section>
+    
+</body>
+</html>
